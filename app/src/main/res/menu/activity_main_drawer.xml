@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/assignment"
+            android:icon="@drawable/assign"
+            android:title="Assignments" />
+
+        <item
+            android:id="@+id/exams"
+            android:icon="@drawable/exam"
+            android:title="@string/exams" />
+    </group>
+
+    <group android:id="@+id/menu_mid"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/notepad"
+            android:icon="@drawable/notepad"
+            android:title="Notepad" />
+
+        <item
+            android:id="@+id/lecturers"
+            android:icon="@drawable/lecturer"
+            android:title="Lecturer" />
+    </group>
+
+    <group android:id="@+id/menu_down"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/setting"
+            android:title="@string/action_settings" />
+    </group>
+
+</menu>

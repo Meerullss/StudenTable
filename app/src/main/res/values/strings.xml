@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">StudenTable</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Fragments strings -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="selected">Selected</string>
+
+    <!-- Main Activity strings -->
+    <string name="timetable">TimeTable</string>
+    <string name="full_week_mode">FULL WEEK MODE</string>
+    <string name="module">Module</string>
+    <string name="field_error">field can not be empty!</string>
+    <string name="time_error">Time field can not be empty!</string>
+    <string name="delete">Delete</string>
+
+    <string name="add_module">Add module</string>
+    <string name="edit_module">Edit module</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="room">Room</string>
+    <string name="time">Time</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="time_to_dialog">To:</string>
+    <string name="time_from_dialog">From:</string>
+    <string name="module_dialog">Module:</string>
+    <string name="teacher_dialog">Teacher:</string>
+    <string name="room_dialog">Room:</string>
+    <string name="select_time">Select time</string>
+    <string name="select_color">Select colour</string>
+    <string name="choose_time">Choose time</string>
+    <string name="choose_date">Choose date</string>
+
+    <!-- Homeworks Activity strings -->
+    <string name="assignment">Assignment</string>
+    <string name="select_date">Select date</string>
+    <string name="deadline_dialog">Deadline:</string>
+    <string name="description_dialog">Description:</string>
+    <string name="description">Description</string>
+    <string name="date_error">Date field can not be empty!</string>
+    <string name="edit_assignment">Edit assignment</string>
+    <string name="add_assignment">Add assignment</string>
+    <string name="deadline_error">"Deadline field can not be empty!</string>
+    <string name="date">Date</string>
+
+    <!-- Notes Activity strings -->
+    <string name="notepad">Notepad</string>
+    <string name="title_dialog">Title:</string>
+    <string name="add_notepad">Add notepad</string>
+    <string name="edit_notepad">Edit notepad</string>
+    <string name="title_error">Title field can not be empty!</string>
+    <string name="title">Title</string>
+    <string name="saved">Saved</string>
+
+    <!-- Teachers Activity strings -->
+    <string name="lecturers">Lecturers</string>
+    <string name="add_lecturer">Add lecturer</string>
+    <string name="edit_lecturer">Edit lecturer</string>
+    <string name="name_dialog">Name:</string>
+    <string name="post_dialog">Post:</string>
+    <string name="phonenumber_dialog">Phone:</string>
+    <string name="email_dialog">Email:</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="post">Post</string>
+    <string name="email">Email</string>
+
+    <!-- Exams Activity strings -->
+    <string name="exams">Exams</string>
+    <string name="add_exam">Add exam</string>
+    <string name="date_dialog">Date:</string>
+    <string name="time_dialog">Time:</string>
+
+    <!-- Settings Activity strings -->
+    <string name="fullWeek_setting">Full Week Mode</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Today\'s lessons</string>
+    <string name="do_not_have_lessons">You do not have lessons!</string>
+    <string name="studentable">StudenTable</string>
+
+</resources>

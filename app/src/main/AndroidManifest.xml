@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyp.StudenTable"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/studentable"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/studentable"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.fyp.StudenTable.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.fyp.StudenTable.activity.AssignmentActivity"
+            android:label="Assignment"
+            android:parentActivityName="com.fyp.StudenTable.activity.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.fyp.StudenTable.activity.AssignmentActivity" />
+
+        <activity
+            android:name="com.fyp.StudenTable.activity.NotepadActivity"
+            android:label="Notepad"
+            android:parentActivityName="com.fyp.StudenTable.activity.MainActivity" />
+        <activity
+            android:name="com.fyp.StudenTable.activity.DataActivity"
+            android:label="Notepad"
+            android:parentActivityName="com.fyp.StudenTable.activity.NotepadActivity" />
+        <activity
+            android:name="com.fyp.StudenTable.activity.LecturerActivity"
+            android:label="Lecturers"
+            android:parentActivityName="com.fyp.StudenTable.activity.MainActivity" />
+        <activity
+            android:name="com.fyp.StudenTable.activity.SettingActivity"
+            android:label="Settings"
+            android:parentActivityName="com.fyp.StudenTable.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fyp.StudenTable.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.fyp.StudenTable.activity.ExamActivity"
+            android:label="Exams"
+            android:parentActivityName="com.fyp.StudenTable.activity.MainActivity" />
+
+        <receiver
+            android:name="com.fyp.StudenTable.misc.CurrentDay"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.fyp.StudenTable.misc.AlarmSupport"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
